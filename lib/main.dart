@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './pages/wa_home.dart';
 
 void main(){
   runApp(App());
@@ -6,6 +7,14 @@ void main(){
 
 class App extends StatelessWidget{
   Widget build(BuildContext context){
-return MaterialApp(home: Scaffold(appBar: AppBar(title: Text('WhatsApp'))));
+return MaterialApp(
+  title: 'WhatsApp',
+  theme: ThemeData(
+    primaryColor: Color(0xff075E54),
+    accentColor: Color(0xff25D366),
+  ),
+  home: WhatsApp_Home()
+      );
   }
 }
+
