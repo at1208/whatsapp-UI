@@ -8,6 +8,7 @@ void main(){
 class App extends StatelessWidget{
   Widget build(BuildContext context){
 return MaterialApp(
+  
   title: 'WhatsApp',
   theme: ThemeData(
     primaryColor: Color(0xff075E54),
