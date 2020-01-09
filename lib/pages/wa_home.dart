@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './chats.dart';
+ 
 
 void main(){
 runApp(WhatsApp_Home());
